@@ -1,0 +1,554 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section .third{
+    width: 100%;
+    height: 400px;
+}
+
+   /* Header part Starts From Here */
+header{
+    height: 72px;
+    width: 100%;
+    background-color:rgb(0, 26, 35);
+    
+}
+
+.navlinks ul{
+    display: flex;
+       
+}
+
+.navlinks ul li{
+    margin: 27px 32px;
+    list-style-type: none;
+    
+    
+}
+
+.navlinks ul li a{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 4px;
+
+}
+.navlinks ul li a:hover{
+    background-color: rgb(179, 239, 178);
+    color: rgb(0, 26, 35);
+    transition: 0.9s ease;
+}
+
+.logo img{
+    height: 30px;
+    float: right;
+    margin: 21px 64px 21px 0px;
+    filter: contrast(30%);
+}
+
+    /* Header Part Finish Here */
+
+
+
+    /* First Section Starts  From Here */
+section .first{
+    height: 900px;
+    width: 100%;
+    background-image: url(image3.jpg);
+    background-size: cover;
+    position: relative;
+    
+}
+
+.first{
+    display: inline-block;
+    font-size: 20px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+#Firstdiv-title h5{
+    margin-left: 315px;
+    margin-top: 200px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 6px;
+    font-size: 18px;
+    position: relative;
+
+}
+#Firstdiv-title h3{
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 250px;
+    max-width: 556px;
+    font-size: 90px;
+    line-height: 90px;
+    font-weight: bolder;
+}
+#Firstdiv-title h3 strong{
+    color:#f36100;
+}
+/* First Section finish Here */
+
+
+
+/* Second section start from here */
+section .second{
+    background-color:rgb(248,248,255);
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+
+}
+#secondtdiv-title {
+    display: block;
+    width: 485px;
+    margin: auto;
+    margin-top: 100px;
+
+    
+}
+
+#secondtdiv-title h1 span{
+    text-align: center;
+    position: relative;
+    
+}
+#secondtdiv-title h1{
+    width: 378px;
+    margin: auto;
+    color:black;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 12px;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+} 
+#secondtdiv-title span{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #f36100;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+#contents{
+    width: 80%;
+    margin: 80px auto;
+    display: flex;
+}
+
+
+#contents span{ 
+    list-style-type: none;
+    font-size: 53px;
+    margin: 29px 32px 0px 50px;
+    padding: 13px 80px;
+    color:#f36100;
+
+} 
+
+#contents span :hover{
+    color:green;
+}
+
+#contents h3{
+    margin: 10px 10px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    font-family:cursive;
+}
+
+#contents p{
+    text-align: justify;
+    padding: 10px 2px;
+    margin: 16px 15px;
+    font-size: 18px;
+}
+
+/* Second Section finish here */
+
+
+
+/* Third Section start from Here */
+
+section #third{
+    background-color: #01161e;
+    height: 1200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.third-title{
+    width:20%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.third-title h1{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 8px;
+    font-family:'Oswald', sans-serif;
+}
+
+.third-title span{
+    font-size: 16px;
+    color: #f36100;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#third .image-gallary-1{
+    display: flex;
+    max-width: 85%;
+    margin: auto;
+}
+
+#third .image-gallary-1 img{
+    height: 332px;
+    width: 433px;
+    margin:30px 25px 21px 0px;
+    box-shadow: 15px 15px 5px black;
+
+}
+
+#third .image-gallary-2{
+    max-width:85% ;
+    display: flex;
+    margin: auto;
+    
+}
+
+#third .image-gallary-2 img{
+    height: 530px;
+    width: 399px;
+    margin: 20px 30px 0px 25px;
+    box-shadow: 15px 15px 5px black;
+}
+
+/* Third section Ends here */
+
+
+
+/* Fourth Section Start Form Here */
+
+#fourth{ 
+    width:100%;
+    height:550px;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+.fourth-title{
+    width: 72%;
+    height: 60%;
+    margin: auto;
+    margin-top: 225px;
+    text-align: center;
+    justify-content: center;
+    z-index: 2;
+    
+}
+
+.fourth-title h2{
+
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-family: sans-serif;
+}
+
+.fourth-title h3{
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    word-spacing: 3px;
+}
+.fourth-title button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border: 2px  solid #f36100;
+    border-radius: 6px;
+    outline: none;
+}
+
+.fourth-title button a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 16px 29px 16px;
+    color: #ffffff;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+
+.fourth-title button:hover{
+    background-color: #f36100;
+    transition: 0.9s ease-out;
+}
+
+#fourth::before{ 
+
+    content: "";
+    background-image: url(image12.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+/* Fourth Section End Here */
+
+
+
+/* Fifth Section Start From here */
+
+#fifth{
+    background-color: #151515;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#fifth-title{
+    width: 39%;
+    height: auto;
+}
+
+#fifth #price-box{
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    height: 70%;
+    margin: auto;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 50px;
+    
+}
+
+#fifth-title{
+ display: block;
+ width: 31%;
+ height: 70px;
+ margin: 30px auto;
+ text-align: center;
+
+}
+
+#fifth-title span{
+    display: block;
+    margin-top: 100px;
+    font-size: 16px;
+    color: #f36100;
+    font-weight: 700;
+
+}
+#fifth-title h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+#price-box .silver{
+    height: 100%;
+    width: 33.33%;
+    border: 1px solid #464646;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 15px 20px;
+
+}
+#price-box .gold{
+    height: 100%;
+    padding: 15px 15px;
+    width: 33.33%;
+    border: 1px solid #464646;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 15px 20px;
+
+}
+#price-box .platinum{
+    height: 100%;
+    width: 33.33%;
+    border: 1px solid #464646;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 15px 20px;
+
+}
+
+
+/* Silver Price Start from here */
+
+#price-box .silver h4{
+    margin-top: 50px;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+#price-box .silver span{
+    font-size: 60px;
+    color: #f36100;
+    font-weight: 600;
+}
+#price-box .silver h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c4c4c4;
+}
+
+#price-box .silver ul{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#price-box .silver ul li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #c4c4c4;
+    line-height: 32px;
+    list-style: none;
+}
+#price-box .silver button{
+    border: 2px solid #f36100;
+    background: #333333;
+    font-size: 14px;
+    padding: 20px 100px 20px;
+    color: #ffffff;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Silver Price finish Here */
+
+
+
+/* Gold Price Start Here */
+#price-box .gold h4{
+    margin-top: 50px;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+#price-box .gold span{
+    font-size: 60px;
+    color: #f36100;
+    font-weight: 600;
+}
+#price-box .gold h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c4c4c4;
+}
+
+#price-box .gold ul{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#price-box .gold ul li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #c4c4c4;
+    line-height: 32px;
+    list-style: none;
+}
+#price-box .gold button{
+    border: 2px solid #f36100;
+    background: #333333;
+    font-size: 14px;
+    padding: 20px 100px 20px;
+    color: #ffffff;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/* Gold Price finish Here  */
+
+
+
+/* platinum Price Start Here */
+#price-box .platinum h4{
+    margin-top: 50px;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+#price-box .platinum span{
+    font-size: 60px;
+    color: #f36100;
+    font-weight: 600;
+}
+#price-box .platinum h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c4c4c4;
+}
+
+#price-box .platinum ul{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#price-box .platinum ul li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #c4c4c4;
+    line-height: 32px;
+    list-style: none;
+}
+#price-box .platinum button{
+    border: 2px solid #f36100;
+    background: #333333;
+    font-size: 14px;
+    padding: 20px 100px 20px;
+    color: #ffffff;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/* Platinum Price Finish Here */
