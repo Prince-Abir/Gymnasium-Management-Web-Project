@@ -1,178 +1,219 @@
-*{
+:root {
+    --primary-color: #f36100;
+    --secondary-bg-color: #151515;
+
+}
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-section .third{
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+section .third {
     width: 100%;
     height: 400px;
 }
 
-   /* Header part Starts From Here */
-header{
-    height: 72px;
+
+/* Header part Starts From Here */
+header {
+    height: auto;
     width: 100%;
-    background-color:rgb(0, 26, 35);
-    
+    background-color: lavender;
+
 }
 
-.navlinks ul{
+.navlinks ul {
     display: flex;
-       
+    float: right;
+    margin: 20px 100px 0 0px;
+
 }
 
-.navlinks ul li{
-    margin: 27px 32px;
+.navlinks ul li {
+
     list-style-type: none;
-    
-    
+    margin-right: 20px;
+    margin-top: 2px;
+
+
 }
 
-.navlinks ul li a{
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cabin', sans-serif;
-    font-weight: 800;
+.navlinks ul li a {
+
+    font-weight: 600;
     text-decoration: none;
-    color: white;
-    padding: 10px 22px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+    padding: 12px 20px;
     border-radius: 4px;
 
 }
-.navlinks ul li a:hover{
-    background-color: rgb(179, 239, 178);
-    color: rgb(0, 26, 35);
-    transition: 0.9s ease;
+
+.navlinks ul li a:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transition: 0.5s ease;
 }
 
-.logo img{
+.logo img {
     height: 30px;
-    float: right;
-    margin: 21px 64px 21px 0px;
-    filter: contrast(30%);
+    float: left;
+    margin: 20px 0px 20px 150px;
+
 }
 
-    /* Header Part Finish Here */
+/* Header Part Finish Here */
 
 
 
-    /* First Section Starts  From Here */
-section .first{
-    height: 900px;
+/* First Section Starts  From Here */
+section .first {
+    height: 90vh;
     width: 100%;
     background-image: url(image3.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
-    
+
 }
 
-.first{
+.first {
     display: inline-block;
     font-size: 20px;
-    color:white;
-    display: flex;
-    flex-direction: column;
+    color: white;
 }
-#Firstdiv-title h5{
-    margin-left: 315px;
+.first #Firstdiv-title{
+    height: 35%;
+    width: 45%;
+    margin-left: 250px;
     margin-top: 200px;
+}
+
+#Firstdiv-title h5 {
+    
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 6px;
     font-size: 18px;
-    position: relative;
 
 }
-#Firstdiv-title h3{
+
+#Firstdiv-title h3 {
     font-family: 'Oswald', sans-serif;
-    display: inline-block;
     text-transform: uppercase;
-    margin-top: 10px;
-    margin-left: 250px;
-    max-width: 556px;
     font-size: 90px;
     line-height: 90px;
     font-weight: bolder;
 }
-#Firstdiv-title h3 strong{
-    color:#f36100;
+
+#Firstdiv-title h3 strong {
+    color: var(--primary-color);
 }
+
 /* First Section finish Here */
 
 
 
 /* Second section start from here */
-section .second{
-    background-color:rgb(248,248,255);
+section .second {
+    background-color: rgb(248, 248, 255);
     width: 100%;
-    height: 600px;
+    height: 100vh;
     overflow: hidden;
+    position: relative;
 
 }
+
 #secondtdiv-title {
     display: block;
-    width: 485px;
+    max-width: 40%;
     margin: auto;
     margin-top: 100px;
 
-    
+
 }
 
-#secondtdiv-title h1 span{
+#secondtdiv-title h1 span {
     text-align: center;
     position: relative;
-    
+
 }
-#secondtdiv-title h1{
-    width: 378px;
+
+#secondtdiv-title h1 {
     margin: auto;
-    color:black;
+    color: black;
     font-size: 32px;
     font-weight: 600;
+    text-align: center;
     text-transform: uppercase;
     margin-top: 12px;
-    position: relative;
     font-family: 'Oswald', sans-serif;
-} 
-#secondtdiv-title span{
+}
+
+#secondtdiv-title span {
     display: block;
     text-align: center;
     font-size: 20px;
-    color: #f36100;
+    color: var(--primary-color);
     text-transform: uppercase;
     font-weight: 700;
 }
 
 
-#contents{
+#contents {
     width: 80%;
     margin: 80px auto;
     display: flex;
 }
 
+.content {
+    padding: 1rem;
+    height: 50vh;
+    width: 25%;
 
-#contents span{ 
-    list-style-type: none;
-    font-size: 53px;
-    margin: 29px 32px 0px 50px;
-    padding: 13px 80px;
-    color:#f36100;
-
-} 
-
-#contents span :hover{
-    color:green;
 }
 
-#contents h3{
+
+#contents span {
+    list-style-type: none;
+    font-size: 2rem;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 13px 80px;
+    color: var(--primary-color);
+
+}
+
+#contents .content:hover {
+    color: white;
+    background-color: var(--secondary-bg-color);
+    opacity: 0.8;
+
+
+}
+
+#contents h3 {
     margin: 10px 10px;
     font-size: 22px;
     text-align: center;
     font-weight: 600;
-    font-family:cursive;
+    font-family: cursive;
 }
 
-#contents p{
+#contents p {
     text-align: justify;
     padding: 10px 2px;
     margin: 16px 15px;
@@ -185,62 +226,70 @@ section .second{
 
 /* Third Section start from Here */
 
-section #third{
-    background-color: #01161e;
-    height: 1200px;
+section #third {
+    background-color: var(--secondary-bg-color);
+    height: 160vh;
     width: 100%;
+    position: relative;
     overflow: hidden;
 }
 
-.third-title{
-    width:20%;
+.third-title {
+    width: 30%;
     margin: auto;
+    display: block;
     text-align: center;
     margin-top: 100px;
 }
 
-.third-title h1{
+.third-title h1 {
     color: #ffffff;
     font-size: 32px;
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 8px;
-    font-family:'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
-.third-title span{
+.third-title span {
     font-size: 16px;
-    color: #f36100;
+    color: var(--primary-color);
     text-transform: uppercase;
     font-weight: 700;
 }
 
-#third .image-gallary-1{
+.imagegallery {
+    width: 85%;
+    height: 75%;
+    margin: 30px auto;
+    margin-top: 50px;
     display: flex;
-    max-width: 85%;
-    margin: auto;
-}
-
-#third .image-gallary-1 img{
-    height: 332px;
-    width: 433px;
-    margin:30px 25px 21px 0px;
-    box-shadow: 15px 15px 5px black;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 5px rgb(0, 0, 0);
 
 }
 
-#third .image-gallary-2{
-    max-width:85% ;
-    display: flex;
-    margin: auto;
-    
+.images {
+    height: 50%;
+    width: 33%;
+   
+
 }
 
-#third .image-gallary-2 img{
-    height: 530px;
-    width: 399px;
-    margin: 20px 30px 0px 25px;
-    box-shadow: 15px 15px 5px black;
+.images img {
+    height: 400px;
+    width: 420px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+
+
+}
+
+.images :hover {
+    background-color:white;
+    transition: 0.5s ease;
+    opacity: 0.2;
 }
 
 /* Third section Ends here */
@@ -249,26 +298,26 @@ section #third{
 
 /* Fourth Section Start Form Here */
 
-#fourth{ 
-    width:100%;
-    height:550px;
+#fourth {
+    width: 100%;
+    height: 550px;
     overflow: hidden;
     position: relative;
-   
+
 }
 
-.fourth-title{
+.fourth-title {
     width: 72%;
     height: 60%;
     margin: auto;
-    margin-top: 225px;
+    margin-top: 200px;
     text-align: center;
     justify-content: center;
     z-index: 2;
-    
+
 }
 
-.fourth-title h2{
+.fourth-title h2 {
 
     font-size: 48px;
     color: #ffffff;
@@ -280,7 +329,7 @@ section #third{
     font-family: sans-serif;
 }
 
-.fourth-title h3{
+.fourth-title h3 {
     font-size: 23px;
     color: #ffffff;
     font-weight: 700;
@@ -288,16 +337,17 @@ section #third{
     margin-bottom: 45px;
     word-spacing: 3px;
 }
-.fourth-title button{
+
+.fourth-title button {
     background-color: transparent;
     cursor: pointer;
     border: none;
-    border: 2px  solid #f36100;
+    border: 2px solid var(--primary-color);
     border-radius: 6px;
     outline: none;
 }
 
-.fourth-title button a{
+.fourth-title button a {
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
@@ -310,16 +360,16 @@ section #third{
     font-family: 'Oswald', sans-serif;
 }
 
-.fourth-title button:hover{
-    background-color: #f36100;
+.fourth-title button:hover {
+    background-color: var(--primary-color);
     transition: 0.9s ease-out;
 }
 
-#fourth::before{ 
+#fourth::before {
 
     content: "";
     background-image: url(image12.jpg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.9;
     position: absolute;
@@ -335,121 +385,117 @@ section #third{
 
 
 
-/* Fifth Section Start From here */
+/* Pricing Area Starts Here */
 
-#fifth{
-    background-color: #151515;
-    height: 900px;
+#fifth {
+    background-color: var(--secondary-bg-color);
+    height: 130vh;
     width: 100%;
     overflow: hidden;
+    position: relative;
+
 }
 
-#fifth-title{
-    width: 39%;
-    height: auto;
+#fifth-title {
+    display: block;
+    width: 40%;
+    max-height: 30%;
+    margin: 0 auto;
+    text-align: center;
+
 }
 
-#fifth #price-box{
+#price-box {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     max-width: 80%;
-    height: 70%;
-    margin: auto;
-    justify-content: space-between;
+    max-height: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
     box-sizing: border-box;
     margin-top: 50px;
-    
-}
-
-#fifth-title{
- display: block;
- width: 31%;
- height: 70px;
- margin: 30px auto;
- text-align: center;
 
 }
 
-#fifth-title span{
+
+
+
+#fifth-title span {
     display: block;
     margin-top: 100px;
     font-size: 16px;
-    color: #f36100;
+    color: var(--primary-color);
     font-weight: 700;
 
 }
-#fifth-title h2{
+
+#fifth-title h2 {
     color: white;
     font-size: 32px;
     font-weight: 600;
     margin-top: 8px;
 }
 
-#price-box .silver{
+#price-box .silver,
+.gold,
+.platinum {
     height: 100%;
-    width: 33.33%;
-    border: 1px solid #464646;
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #333333;
     box-sizing: border-box;
     text-align: center;
-    margin: 15px 20px;
-
-}
-#price-box .gold{
-    height: 100%;
-    padding: 15px 15px;
-    width: 33.33%;
-    border: 1px solid #464646;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 15px 20px;
-
-}
-#price-box .platinum{
-    height: 100%;
-    width: 33.33%;
-    border: 1px solid #464646;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 15px 20px;
 
 }
 
+#price-box .silver:hover,
+.gold:hover,
+.platinum:hover {
+    background-color: #333333;
+    transition: 0.8s ease;
 
-/* Silver Price Start from here */
+}
 
-#price-box .silver h4{
+/* price Box start here */
+
+#price-box h4 {
     margin-top: 50px;
     font-size: 28px;
     color: #ffffff;
     font-weight: 600;
     margin-bottom: 25px;
 }
-#price-box .silver span{
+
+#price-box span {
     font-size: 60px;
-    color: #f36100;
+    color: var(--primary-color);
     font-weight: 600;
 }
-#price-box .silver h3{
+
+#price-box h3 {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     color: #c4c4c4;
 }
 
-#price-box .silver ul{
+#price-box ul {
     margin-top: 60px;
     margin-bottom: 60px;
 }
-#price-box .silver ul li{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+#price-box ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     color: #c4c4c4;
     line-height: 32px;
     list-style: none;
 }
-#price-box .silver button{
-    border: 2px solid #f36100;
-    background: #333333;
+
+#price-box button {
+    border: 2px solid var(--primary-color);
+    background: black;
+    border-radius: 6px;
     font-size: 14px;
     padding: 20px 100px 20px;
     color: #ffffff;
@@ -459,96 +505,197 @@ section #third{
     font-weight: 700;
 }
 
-/* Silver Price finish Here */
-
-
-
-/* Gold Price Start Here */
-#price-box .gold h4{
-    margin-top: 50px;
-    font-size: 28px;
-    color: #ffffff;
-    font-weight: 600;
-    margin-bottom: 25px;
+#price-box button:hover {
+    background-color: var(--primary-color);
+    transition: 0.8s ease;
 }
-#price-box .gold span{
-    font-size: 60px;
-    color: #f36100;
-    font-weight: 600;
+
+/* price Box finish here */
+
+
+/* footer area starts Here*/
+
+footer {
+    height: 65vh;
+    width: 100%;
+    background-color: var(--primary-color);
+    overflow: hidden;
+    position: relative;
 }
-#price-box .gold h3{
-    font-size: 16px;
-    font-weight: 700;
+
+footer .footerArea {
+
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+footer .footerArea .content {
+
+    height: 80%;
+    width: 25%;
+    text-align: center;
+
+    border: 2px solid var(--primary-color);
+    position: relative;
+}
+
+footer .footerArea .content ul {
+    list-style-type: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+
+
+
+
+}
+
+footer .footerArea .content ul li a:hover {
+    color: white;
+    transition: 0.8s ease;
+}
+
+
+footer .footerArea .content ul li {
+
+
+    padding: 5px 10px;
+    line-height: 30px;
+}
+
+footer .footerArea .content ul li a {
+    text-decoration: none;
+    color: var(--secondary-bg-color);
     text-transform: uppercase;
-    color: #c4c4c4;
-}
-
-#price-box .gold ul{
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-#price-box .gold ul li{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    color: #c4c4c4;
-    line-height: 32px;
-    list-style: none;
-}
-#price-box .gold button{
-    border: 2px solid #f36100;
-    background: #333333;
-    font-size: 14px;
-    padding: 20px 100px 20px;
-    color: #ffffff;
-    line-height: normal;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-/* Gold Price finish Here  */
-
-
-
-/* platinum Price Start Here */
-#price-box .platinum h4{
-    margin-top: 50px;
-    font-size: 28px;
-    color: #ffffff;
+    font-size: 15px;
     font-weight: 600;
-    margin-bottom: 25px;
-}
-#price-box .platinum span{
-    font-size: 60px;
-    color: #f36100;
-    font-weight: 600;
-}
-#price-box .platinum h3{
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #c4c4c4;
+    text-align: center;
+    word-spacing: 3px;
+    margin: 0 auto;
+
 }
 
-#price-box .platinum ul{
-    margin-top: 60px;
-    margin-bottom: 60px;
+footer .content .linksArea {
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+
 }
-#price-box .platinum ul li{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    color: #c4c4c4;
-    line-height: 32px;
-    list-style: none;
+
+footer .content .linksArea .bottomlogo {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-60%);
+
+
 }
-#price-box .platinum button{
-    border: 2px solid #f36100;
-    background: #333333;
-    font-size: 14px;
-    padding: 20px 100px 20px;
-    color: #ffffff;
-    line-height: normal;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 700;
+
+footer .content .linksArea .bottomlogo a img {
+    height: 56px;
+    width: auto;
+    margin: 5px;
+    padding: 5px 10px;
+    align-items: center;
+
+
 }
-/* Platinum Price Finish Here */
+
+footer .content .linksArea .bottomlogo h3 a {
+
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+
+}
+footer .content .linksArea .bottomlogo h3 a:hover{
+    color: var(--secondary-bg-color);
+    transition: 0.8s ease;
+}
+
+footer .content .linksArea .bottomlinks {
+    height: 50%;
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 120%;
+    transform: translateY(-100%);
+
+}
+
+.bottomlinks a {
+    height: 100px;
+    width: 100px;
+    text-decoration: none;
+
+}
+
+.bottomlinks .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.bottomlinks .fa:hover{
+    padding: 20px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.8s ease;
+    color: var(--secondary-bg-color);
+}
+
+footer hr{
+    width: 100%;
+    height:2px;
+    border-width:0;
+    background-color: var(--secondary-bg-color);
+}
+
+footer .creator{
+    height: 10%;
+    width: 100%;
+}
+
+footer .creator h3,footer h3  fa{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: var(--secondary-bg-color);
+}
+
+.creator h3 span{
+    color: beige;
+}
