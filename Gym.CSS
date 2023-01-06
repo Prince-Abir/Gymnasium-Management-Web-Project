@@ -176,11 +176,12 @@ section .second {
     width: 80%;
     margin: 80px auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .content {
     padding: 1rem;
-    height: 50vh;
+    height: auto;
     width: 25%;
 
 }
@@ -279,7 +280,7 @@ section #third {
 
 .images img {
     height: 400px;
-    width: 420px;
+    width: 390px;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 10px;
 
@@ -300,7 +301,7 @@ section #third {
 
 #fourth {
     width: 100%;
-    height: 550px;
+    height: 100vh;
     overflow: hidden;
     position: relative;
 
@@ -341,7 +342,6 @@ section #third {
 .fourth-title button {
     background-color: transparent;
     cursor: pointer;
-    border: none;
     border: 2px solid var(--primary-color);
     border-radius: 6px;
     outline: none;
@@ -497,7 +497,7 @@ section #third {
     background: black;
     border-radius: 6px;
     font-size: 14px;
-    padding: 20px 100px 20px;
+    padding: 20px 50px 20px;
     color: #ffffff;
     line-height: normal;
     letter-spacing: 1px;
@@ -548,7 +548,7 @@ footer .footerArea .content ul {
     margin: 0;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
     width: 100%;
     text-align: center;
 
@@ -699,3 +699,364 @@ footer .creator h3,footer h3  fa{
 .creator h3 span{
     color: beige;
 }
+
+
+/* Small Device Code Start Here */
+@media only screen and (max-width: 480px) {
+
+    /* Nav Area Start Here */
+    .navlinks ul li{
+        display: none;
+    }
+
+    .logo img {
+        height: 25px;
+        float: left;
+        margin: 20px 0px 20px 60px;
+    
+
+       
+    }
+    /* Nav Area Finish Here */
+
+
+    /* First Section Start Here */
+
+    section .first {
+        height: 60vh;
+        width: 100%;
+        background-image: url(image3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    
+    }
+
+    .first #Firstdiv-title{
+        height: 50%;
+        width: 50%;
+        margin: 0 auto;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateY(-50%);
+        transform: translateX(-50%);
+    
+    
+    }
+
+    #Firstdiv-title h5 {
+        height: 40%;
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 6px;
+        font-size: 20px;
+    
+    }
+    
+    #Firstdiv-title h3 {
+        height: 60%;
+        width: 100%;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: bolder;
+    }
+    
+    /* First Section Finish Here */
+
+
+
+    /* Second Section Start Here */
+
+    #secondtdiv-title {
+        display: block;
+        max-width: 60%;
+        margin: auto;
+        margin-top: 100px;
+    
+    
+    }
+
+    section .second {
+       
+        height: 165vh;
+    
+    }
+    #contents {
+        height: auto;
+        width: 80%;
+        margin: 80px auto;
+      
+    }
+    
+    .content {
+        padding: 1rem;
+        height: 70%;
+        width: 100%;
+    
+    }
+
+    /* Second Section Finish Here */
+
+
+    /* Third Section Start Here */
+
+    
+section #third {
+    height: auto;
+
+}
+
+    .third-title {
+        width: 50%;
+        margin: auto;
+        display: block;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .images {
+        height: auto;
+        width: 100%;
+       
+    
+    }
+
+    
+.images img {
+    height: 280px;
+    width: 90%;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    display: block;
+    margin : 0 auto;
+    margin-top: 20px;
+
+
+}
+
+/* Third Section Finish Here */
+
+
+
+/* Fourth Section Start Here */
+
+#fourth {
+    width: 100%;
+    height: 70vh;
+
+}
+
+.fourth-title {
+    width: 75%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    z-index: 2;
+
+}
+
+.fourth-title h2 {
+
+    width: 100%;
+    font-size: 25px;
+    color: var(--secondary-bg-color);
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-style: bold;
+
+}
+
+.fourth-title h3 {
+    font-size: 20px;
+    color: var(--secondary-bg-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    word-spacing: 3px;
+}
+
+.fourth-title button a {
+
+    font-size: 30px;
+    padding: 16px 29px 16px;
+
+}
+
+/* Fourth Section Finish Here */
+
+
+
+/* Fifth Section Start Here */
+#fifth {
+    
+    height: auto;
+    padding-bottom: 50px;
+}
+
+#fifth-title {
+    display: block;
+    width: 60%;
+    max-height: 30%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#price-box .silver,
+.gold,
+.platinum {
+    height: 100%;
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+/* Fifth Section Finish Here */
+
+
+/* Footer Start Here */
+
+footer {
+    height:80vh;
+   
+}
+
+
+footer .footerArea .content {
+
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    border: 2px solid var(--primary-color);
+    position: relative;
+}
+
+footer .footerArea .content ul li {
+
+
+    line-height: 20px;
+}
+
+footer .footerArea .content ul li a {
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+footer .content .linksArea {
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+
+footer .content .linksArea .bottomlogo {
+    height: 50%;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-60%);
+
+
+}
+
+footer .content .linksArea .bottomlogo a img {
+    height: 56px;
+    width: auto;
+    padding: 5px;
+
+
+}
+
+footer .content .linksArea .bottomlogo h3 a {
+
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 10px;
+
+
+}
+
+
+footer .content .linksArea .bottomlinks {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 120%;
+    justify-content: center;
+    transform: translateY(-100%);
+    
+
+}
+
+.bottomlinks a {
+    height: 90px;
+    width: 90px;
+}
+
+
+.bottomlinks .fa {
+    padding: 10px;
+    font-size: 30px;
+
+
+}
+
+footer .creator h3,footer h3  fa{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 10px;
+    color: var(--secondary-bg-color);
+}
+
+/* Footer Finish  Here */
+
+
+}
+
+/* Small Device Code Finish Here */
+
+
+@media only screen and (max-width: 768px){
+
+
+
+}
+
+
+@media only screen and (max-width: 1024px){
+
+
+    
+}
+
+@media only screen and (max-width: 1200px){
+
+
+    
+}
+
